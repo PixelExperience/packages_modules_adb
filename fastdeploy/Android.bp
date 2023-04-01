@@ -88,6 +88,8 @@ java_test_host {
         ":FastDeployTests",
         "testdata/helloworld5.apk",
         "testdata/helloworld7.apk",
+        "testdata/sample.apk",
+        "testdata/sample.cd",
     ],
     libs: [
         "compatibility-host-util",
